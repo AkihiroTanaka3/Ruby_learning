@@ -5,6 +5,10 @@ class Car
 end
 
 class Truck < Car
+  def run(distance)
+    super
+    puts "大きな荷物をのせて走ります。"
+  end
 end
 
 truck = Truck.new
